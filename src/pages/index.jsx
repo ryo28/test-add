@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
-import { ActionButton } from "./components/ActionButton";
-import { DraftStorage } from "./components/DraftStorage";
+import { ActionButton } from "../components/ActionButton";
+import { DraftStorage } from "../components/DraftStorage";
 
 export default function Home() {
   const [textBoxValue, setTextBoxValue] = useState("");
